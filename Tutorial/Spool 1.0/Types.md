@@ -38,7 +38,9 @@ type Day = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 };
 ```
 In this example we used the "..." operator with in Day.
-You see types also act as lists of there range.
+
+You see types also act as arrays of there range.
+
 You can again declare ranges with in subtypes manually.
 ```
 type Day = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") {
