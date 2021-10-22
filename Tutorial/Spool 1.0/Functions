@@ -1,0 +1,3 @@
+Functions are the main way of manipulating data within Spool.
+The syntax for a function is quite similar to that of a variable.
+(Return Type) (Name) 
