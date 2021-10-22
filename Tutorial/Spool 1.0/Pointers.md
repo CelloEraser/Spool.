@@ -39,4 +39,8 @@ This code gives the operation at the address of the square operation + 5 passing
 
 The asterisk operator in this context turns an adress into its value.
 
+Creating a pointer to a type or subtype with variables allows you to access those variables with the '->'.
+
+If you would like the address of a variable in a type or subtype add an '&' to the front when accessing a value.
+
 Be careful with pointers and only use them when you absolutely know what you are doing.
