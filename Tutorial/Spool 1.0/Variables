@@ -10,6 +10,6 @@ Inside of types and subtypes you can declare variables using the syntax (Type) (
 For subtypes they must either have the same variables or a subset of variables.
 Types and subtypes can exist without ranges but they must have variables inside of them.
 When declaring a type or subtype with variables the syntax looks like this.
-(Type) (Name) = (Value) {(Name) = (Value); };
+Type Name = Value { Name = Value; };
 You can access the variable inside a variable using the "." operator.
 If the type of a variable is a subtype you only have access to variables in that subtype.
