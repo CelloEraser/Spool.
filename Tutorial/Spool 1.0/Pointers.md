@@ -19,10 +19,10 @@ In all seriousness though pointer arithmetic is really useful.
 
 Pointer arithmetic can be acheived using the + and - operators, moving the address up and down respectively.
 
-For example here is an implementation to find addresses around a value.
+For example here is an implementation to find a value around an address.
 ```
-&int Implementation(int amount, &int value) = {
-    &int + amount >|;
+&int Implementation(int value, &int address) = {
+    if(*address != value) { Implementation(value, address+1); } else { address } >|
 };
 ```
 You can also have addresses to functions.
